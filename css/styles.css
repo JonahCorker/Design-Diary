@@ -1,0 +1,373 @@
+body {
+  font-family: 'Architects Daughter';
+}
+
+h2 {
+  font-size: 3rem;
+  text-align: center;
+  padding-top: 5rem
+}
+
+h3 {
+  font-size: 2rem
+}
+
+p {
+  margin-top: 10%;
+  font-size: 1.3rem
+}
+
+button {
+  margin: 0% 1% 5% 0;
+  text-align: center;
+}
+
+.dropper {
+  background-color: white;
+}
+
+.dropper:hover {
+  background-color: #4097AA;
+}
+
+.fa-book {
+  padding-right: 1rem;
+}
+
+.fa-book:hover {
+  color: #4097AA;
+}
+
+.memo:hover {
+  color: #4097AA;
+}
+
+.navbar-brand {
+  color: white;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 20px;
+  font-size: 1.2rem;
+  color: white;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  color: white;
+}
+
+.nav-link:hover {
+  color: #4097AA
+}
+
+.nowrap {
+  white-space: nowrap;
+}
+
+.top-button {
+  text-align: center;
+}
+
+.navbar-toggler-icon {
+  color: white;
+}
+
+.girlonlaptop {
+  margin-top: auto;
+}
+
+.big-heading {
+  margin-top: 11%;
+  font-weight: bold;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.secret {
+  color: white;
+}
+
+.secret:hover {
+  color: #eb4559;
+}
+
+#discription {
+    background-color: #142850;
+  padding: 4% 6%;
+  z-index: 1;
+  position: relative;
+  text-align: center;
+color: white;
+}
+
+.heading-two {
+  margin-top: -5%;
+  color: white;
+}
+
+.disc-box {
+  background-color: inherit;
+  text-align: center;
+  padding: 5%;
+  color: white;
+}
+
+.icon {
+  margin-bottom: 1.4rem;
+  margin-left: 3%;
+  margin-top: 11%;
+  color: #eb4559;
+}
+
+.icon:hover {
+  color: white;
+}
+
+#lessons {
+  padding: 2rem 5rem 6rem 9rem;
+  text-align: center;
+}
+
+.card-title {
+  font-weight: bold;
+  font-size: 1.6rem;
+}
+
+.lesson-heading {
+  padding-bottom: 4rem;
+  font-weight: bold;
+  font-size: 3.2rem;
+}
+
+.buttons {
+  background-color: #8ccbbe;
+}
+
+.button-heading {
+  color: white;
+}
+
+.button-two {
+  background-color: #ffcd3c;
+}
+
+.second-btn {
+  color: #3797a4;
+}
+
+.button-three {
+  background-color: #5c2a9d;
+}
+
+.third-btn {
+  color: white;
+}
+
+/* .............Testamonials.................................... */
+#Testamonials {
+  padding: 3% 10%;
+  text-align: center;
+  background-color: #142850;
+}
+
+.carousel-item {
+  padding: 3% 15%;
+}
+
+.quotes {
+  line-height: 1.5;
+  font-weight: bold;
+  font-size: 3rem;
+  color: white;
+}
+
+.Testamonials-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 30px;
+}
+
+.names {
+  color: white;
+}
+
+.endnote {
+  padding-top: 10%;
+  font-weight: bold;
+  margin-bottom: 3%;
+  text-align: center;
+}
+
+.end {
+  font-weight: bold;
+  font-size: 50px;
+  padding: 2rem;
+}
+
+.google {
+  padding: 10px 19px;
+  background-color: #eb4559;
+}
+
+.google:hover {
+  color: white;
+}
+
+.apple {
+  padding: 10px 19px;
+  background-color: #142850;
+  color: white;
+}
+
+.apple:hover {
+  color: #eb4559;
+}
+
+.button-last {
+  padding: 10px 20px 10px 20px;
+  text-align: center;
+  margin-left: 1%
+}
+
+/* MOBILE RESPONSE.................................... */
+@media (max-width: 991px) {
+  .secret {
+    color: #eb4559;
+  }
+
+  .dropper {
+    background-color: white;
+    text-align: center;
+    padding: 22px
+  }
+
+
+  .nav-link {
+    font-size: 2rem;
+    padding-top: 10%;
+    padding-bottom: 11%;
+  }
+
+  .google {
+    padding: 20px 21px;
+    background-color: #eb4559;
+  }
+
+  .apple {
+    padding: 20px 21px;
+    background-color: #142850;
+    color: white;
+  }
+
+
+  .big-heading {
+    padding-top: 2%;
+    text-align: center;
+  }
+
+  .girlonlaptop {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+
+  .lesson-picker {
+    padding-top: 50px;
+  }
+
+  h3 {
+    font-size: 2.6rem;
+  }
+
+  h2 {
+    font-size: 1.4rem;
+  }
+
+  p {
+    font-size: 2rem;
+  }
+
+
+  .social-icon {
+    margin: 10px 44px;
+    color: white;
+    padding-top: 50px;
+
+  }
+
+.top-button{
+  padding: 23px 55px;
+  background-color: #eb4559;
+  color: white;
+}
+
+.button-last {
+  padding: 22px 50px 30px 50px;
+  text-align: center;
+  margin-left: 1%;
+  margin: 9% 1% 5% 0;
+}
+
+.card-title{
+  font-size: 2.2rem;
+}
+
+.heading-two{
+  font-size: 3rem;
+}
+
+.memo{
+  font-size: 3rem;
+}
+
+.navbar-brand {
+  color: white;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.footer.images{
+padding: 51px;
+
+}
+
+.names{
+  font-size: 1.6rem;
+}
+
+}
+
+/* MOBILE END.......................................... */
+
+
+
+/* SOCIAL.................................. */
+#Social-Media {
+  background-color: #142850;
+  padding: 20px;
+  text-align: center;
+}
+
+#footer {
+  text-align: left;
+}
+
+.social-icon {
+  margin: 10px 8px;
+  color: white;
+  padding-top: 50px;
+}
+
+.social-icon:hover {
+  color: #eb4559;
+}
+
+.copy {
+  color: #e8e4e1;
+  margin-top: auto;
+  text-align: center;
+}
